@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Abdollah & Rawan — Wedding Invitation</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Great+Vibes&family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- Falling petals -->
+<div id="particles"></div>
+
+<!-- ═══ HERO ═══ -->
+<section class="hero">
+  <div class="corner corner-tl"></div>
+  <div class="corner corner-tr"></div>
+  <div class="corner corner-bl"></div>
+  <div class="corner corner-br"></div>
+
+  <div class="hero-content">
+    <p class="invite-label">Together with love and joy</p>
+    <p class="invite-label" style="margin-top:-18px;">You are cordially invited to the wedding of</p>
+
+    <h1 class="names">Abdollah <span class="ampersand">&amp;</span> Rawan</h1>
+
+    <div class="divider">
+      <div class="divider-line"></div>
+      <div class="divider-diamond"></div>
+      <div class="divider-line"></div>
+    </div>
+
+    <p class="date-text">AUGUST 2 · 2026</p>
+    <p class="subtitle">Join us as we begin our forever</p>
+
+    <!-- Countdown -->
+    <div class="countdown-wrap">
+      <div class="countdown">
+        <div class="count-item">
+          <div class="count-box"><span class="count-number" id="days">00</span></div>
+          <span class="count-label">Days</span>
+        </div>
+        <span class="count-sep">:</span>
+        <div class="count-item">
+          <div class="count-box"><span class="count-number" id="hours">00</span></div>
+          <span class="count-label">Hours</span>
+        </div>
+        <span class="count-sep">:</span>
+        <div class="count-item">
+          <div class="count-box"><span class="count-number" id="minutes">00</span></div>
+          <span class="count-label">Minutes</span>
+        </div>
+        <span class="count-sep">:</span>
+        <div class="count-item">
+          <div class="count-box"><span class="count-number" id="seconds">00</span></div>
+          <span class="count-label">Seconds</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ DETAILS ═══ -->
+<section class="details-section">
+  <p class="section-label reveal">Wedding Details</p>
+  <h2 class="section-title reveal">Save The Date</h2>
+
+  <div class="details-grid">
+    <div class="detail-card reveal">
+      <span class="detail-icon">📅</span>
+      <p class="detail-title">Date</p>
+      <p class="detail-value">2 August<br>2026</p>
+    </div>
+    <div class="detail-card reveal">
+      <span class="detail-icon">🕐</span>
+      <p class="detail-title">Time</p>
+      <p class="detail-value">7:00 PM</p>
+    </div>
+    <div class="detail-card reveal">
+      <span class="detail-icon">📍</span>
+      <p class="detail-title">Venue</p>
+      <p class="detail-value">Tiba Rose Hotel<br>Lavandula Hall</p>
+    </div>
+  </div>
+
+  <div class="divider reveal" style="max-width:400px; margin: 0 auto 60px;">
+    <div class="divider-line"></div>
+    <div class="divider-diamond"></div>
+    <div class="divider-line"></div>
+  </div>
+
+  <p class="reveal quote-text">
+    Your presence will make our special day even more memorable.<br><br>
+    We would be honored to have you celebrate this beautiful beginning with us.
+  </p>
+</section>
+
+<!-- ═══ LOCATION ═══ -->
+<section class="location-section">
+  <p class="section-label reveal">Find Us Here</p>
+  <h2 class="section-title reveal">The Venue</h2>
+
+  <div class="venue-card reveal">
+    <div class="venue-info">
+      <div class="venue-name-en">Tiba Rose Hotel</div>
+      <div class="venue-name-en" style="font-size: clamp(1.1rem, 3vw, 1.5rem); color: var(--gold-dark);">Lavandula Hall</div>
+      <div class="venue-address">Cairo, Egypt</div>
+      <a class="directions-btn" href="https://maps.app.goo.gl/mMrN2VZUZLvdF9rF7" target="_blank" rel="noopener">
+        <span>📍</span> Get Directions
+      </a>
+    </div>
+    <div class="map-embed">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1730.4855862046702!2d31.37476578962028!3d30.020133569264335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583c3f73895c4f%3A0x5ea4a3b7a96e79f3!2zVGliYSBSb3NlIEhvdGVsIC0g2YHZhtiv2YIg2LfZitio2Ycg2LHZiNiy!5e1!3m2!1sen!2seg!4v1782315153438!5m2!1sen!2seg"
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <p>Abdollah &amp; Rawan · August 2026</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
